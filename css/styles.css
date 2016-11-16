@@ -1,38 +1,88 @@
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
 body {
-  margin: 30px;
   background-color: rgba(237,239,240,1);
   font-family: 'Roboto';
   font-size: 18px;
   line-height: 1em;
   color: rgba(0,0,0,1);
+  margin: 25px;
 }
+img {
+  width: 1.5em;
+}
+
 .navBar {
   position: relative;
-  display:block;
-  /*letter-spacing: 1em;*/
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
 }
 .leftNav {
   float: left;
-  width: 55%;
+  width: 70%;
   border: 3px solid yellow;
+  padding-top: 10px;
 }
+/*right menu half*/
 .rightNav {
   float: right;
-  width: 40%;
+  width: 30%;
   border: 3px solid green;
+  color: rgba(0,0,0,.25);
 }
 .rightNav > * {
-  float: left;
+  float: right;
+  margin-left: 8px;
+  margin-top: 0.5em;
 }
-.right
-.bar {
-  font-family: 'Roboto';
-  font-size: 70px;
-  font-weight: 100;
-  color: rgba(191,196,206,1);
-}
+/*.rightNav img{
+  width: 1em;
+}*/
 .box img {
-  width: 1px;
-  height: 20px;
+  margin-top: 0.5em;
+  width: 0.1em;
+  height: 2em;
   background: rgba(191,196,206,1);
+  margin-right: 8px;
+}
+#number {
+  margin-top: 1.3em;
+}
+#person img {
+  width: 2.5em;
+  margin-top: 0.3em;
+}
+#downArrow img {
+  width: .75em;
+  margin-top: 1em;
+  margin-right: 8px;
+}
+#linedArrow img {
+  width: 3.4em;
+  margin-top: .5em;
+  margin-right: 8px;
+  border-right: 2px solid rgb(212,217,221);
+  padding-right: 10px;
+  border-left: 2px solid rgb(212,217,221);
+  padding-left: 10px;
+}
+#bell img {
+  margin-top: .5em;
+  margin-right: 8px;
+}
+
+#horizontalBar {
+  float: left;
+  width: 100%;
+  height: 4px;
+  background-image: linear-gradient(#888, #fff);
 }

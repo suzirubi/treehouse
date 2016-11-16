@@ -1,0 +1,38 @@
+body {
+  margin: 30px;
+  background-color: rgba(237,239,240,1);
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 1em;
+  color: rgba(0,0,0,1);
+}
+.navBar {
+  position: relative;
+  display:block;
+  /*letter-spacing: 1em;*/
+}
+.leftNav {
+  float: left;
+  width: 55%;
+  border: 3px solid yellow;
+}
+.rightNav {
+  float: right;
+  width: 40%;
+  border: 3px solid green;
+}
+.rightNav > * {
+  float: left;
+}
+.right
+.bar {
+  font-family: 'Roboto';
+  font-size: 70px;
+  font-weight: 100;
+  color: rgba(191,196,206,1);
+}
+.box img {
+  width: 1px;
+  height: 20px;
+  background: rgba(191,196,206,1);
+}

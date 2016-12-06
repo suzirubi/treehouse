@@ -1,0 +1,16 @@
+.column {
+  position: relative;
+  background-color: $white;
+  width: 48%;
+  height: 20em;
+  border-radius: .3em;
+  padding: 3.5em 0.75em 0em 1.5em;
+}
+.colLeft {
+  float: left;
+  margin-left: 0.75em;
+}
+.colRight {
+  float: right;
+  margin-right: 0.75em;
+}

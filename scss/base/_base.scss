@@ -1,0 +1,29 @@
+/* Base Styles -------------------- */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0em;
+  padding:0em;
+}
+
+body {
+  @include text(1em, 1.15, $color: $black);
+  background-color: $porcelain;
+  font-family: 'Roboto';
+  margin: 0em;
+}
+
+h3 {
+  @include text(1.45em, 2em);
+}
+h5 {
+  @include text(1em, 0.9em, $color: $color-shadow-50);
+  margin-top: 1.5em;
+}
+p {
+  @include text(1em, 1.5em, 400, $color-shadow-50);
+  margin: 08em 0 3em 0;
+}

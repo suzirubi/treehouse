@@ -1,0 +1,60 @@
+.navBar {
+  position: relative;
+  display: block;
+  margin: 1.5em;
+  .leftNav {
+    float: left;
+    width: 50%;
+    padding-top: 1.1em;
+    font-weight: 600;
+  }
+  .rightNav {
+    position: relative;
+    display:block;
+    float: right;
+    width: 50%;
+    color: $color-shadow-25;
+  }
+  #number {
+    margin-top: 1.1em;
+    margin-right: 0.4em;
+  }
+  #person img {
+    width: 3em;
+    margin-right: 0.3em;
+  }
+  #downArrow img {
+    width: .95em;
+    margin-top: 1.2em;
+    margin-right: 1em;
+  }
+  #linedArrow img {
+    width: 3.5em;
+    margin: 0.65em 1em 0em 0.5em;
+    border-right: .1em solid $color-border-light;
+    padding: 0em 0.8em 0em 0.8em;
+    border-left: .1em solid $color-border-light;
+  }
+  .bell {
+    position: relative;
+  }
+  .bell img {
+    width: 1.75em;
+    margin: 0.65em 0.8em 0em 0em;
+  }
+  .bellbox {
+    @include text(0.75em, $color: $color-border-light);
+    position: absolute;
+    top: 0.1em;
+    left: 1.5em;
+    width: 1em;
+    height: 1.5em;
+    background-color: red;
+    border: .1em solid red;
+    border-radius: 0.2em;
+    padding: 0em 0em 0.5em 0.2em;
+  }
+  .rightNav > * {
+    float: right;
+  }
+}

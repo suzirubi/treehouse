@@ -17,7 +17,8 @@ body {
 }
 
 h3 {
-  @include text(1.45em, 2em);
+  @include text(1.45em, 1.1em);
+  margin-top: 0.25em;
 }
 h5 {
   @include text(1em, 0.9em, $color: $color-shadow-50);
@@ -25,5 +26,5 @@ h5 {
 }
 p {
   @include text(1em, 1.5em, 400, $color-shadow-50);
-  margin: 08em 0 3em 0;
+  margin: 0.8em 0 3em 0;
 }

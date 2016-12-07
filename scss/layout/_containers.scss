@@ -13,7 +13,6 @@
   padding-top: 1em;
   clear: both;
 }
-
 .courseHeader {
   position: absolute;
   top: 0em;
@@ -92,6 +91,12 @@
   border-radius: 1.5em;
   padding: .5em;
   margin-right: 1em;
+  @media #{$brk-wide} {
+    padding: .35em;
+    margin-right: .35em;
+    width: 23%;
+    font-size: .9em;
+  }
 }
 .java {
   color: $lochinvar;
@@ -116,13 +121,21 @@
   padding: .5em;
   margin-right: .5em;
   text-align: center;
+  @media #{$brk-wide} {
+    padding: .35em;
+    margin-right: .35em;
+    width: 27%;
+  }
 }
 .arrowStar {
   float: right;
-  width: 25%;
+  width: 30%;
 }
 .arrowStar img {
   float: right;
   width: 2.45em;
   margin-right: 1em;
+  @media #{$brk-wide} {
+    width:2em;
+  }
 }
